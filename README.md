@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+# Gerenciador de Usuários
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto front-end desenvolvido com **React** e **TypeScript** que permite o cadastro, listagem, edição e exclusão de usuários. A interface é estilizada com **Material UI (MUI)** e faz requisições a uma API REST para manipular os dados.
 
-## Available Scripts
+## ✨ Funcionalidades
 
-In the project directory, you can run:
+- ✅ Listagem de usuários
+- ➕ Cadastro de novo usuário
+- ✏️ Edição de usuário existente
+- ❌ Exclusão de usuário
+- 🔔 Toasts para mensagens de sucesso e erro
+- ♻️ Atualização automática da lista após operações
 
-### `npm start`
+## 🛠️ Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Material UI (MUI)](https://mui.com/)
+- [Axios](https://axios-http.com/)
+- [React Hot Toast](https://react-hot-toast.com/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📁 Estrutura de Pastas
 
-### `npm test`
+src/
+├── components/
+│ ├── UserForm.tsx
+│ └── UserList.tsx
+├── hooks/
+│ └── useUsers.ts
+├── services/
+│ └── api.ts
+├── App.tsx
+└── index.tsx
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Como rodar o projeto
 
-### `npm run build`
+### Pré-requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (recomenda-se a versão LTS)
+- Gerenciador de pacotes `npm` ou `yarn`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Instalação
+# Clone o repositório
+git clone https://github.com/ricardoiwata/teste-tecnico-front.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Acesse o diretório do projeto
+cd teste-tecnico-front
 
-### `npm run eject`
+# Instale as dependências
+npm install
+# ou
+yarn
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Inicie a aplicação em modo de desenvolvimento
+npm run dev
+# ou
+yarn dev
