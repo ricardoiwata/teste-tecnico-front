@@ -19,19 +19,6 @@ Este é um projeto front-end desenvolvido com **React** e **TypeScript** que per
 - [Axios](https://axios-http.com/)
 - [React Hot Toast](https://react-hot-toast.com/)
 
-## 📁 Estrutura de Pastas
-
-src/
-├── components/
-│ ├── UserForm.tsx
-│ └── UserList.tsx
-├── hooks/
-│ └── useUsers.ts
-├── services/
-│ └── api.ts
-├── App.tsx
-└── index.tsx
-
 ## 🚀 Como rodar o projeto
 
 ### Pré-requisitos
