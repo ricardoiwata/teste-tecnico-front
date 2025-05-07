@@ -17,7 +17,7 @@ Este é um projeto front-end desenvolvido com **React** e **TypeScript** que per
 - [TypeScript](https://www.typescriptlang.org/)
 - [Material UI (MUI)](https://mui.com/)
 - [Axios](https://axios-http.com/)
-- [React Hot Toast](https://react-hot-toast.com/)
+- [React Toastify](https://www.npmjs.com/package/react-toastify)
 
 ## 🚀 Como rodar o projeto
 
